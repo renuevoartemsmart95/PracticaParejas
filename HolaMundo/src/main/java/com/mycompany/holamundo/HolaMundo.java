@@ -10,5 +10,8 @@ package com.mycompany.holamundo;
  * @author Diurno
  */
 public class HolaMundo {
-    
+    private final String hola = "Hola";
+    public void imprimir(){
+        System.out.println(hola);
+    }
 }
